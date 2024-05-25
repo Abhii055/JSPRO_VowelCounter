@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background:linear-gradient(240deg, #630e39, #1e1408, #113e3a, #230514);
+    background:linear-gradient(240deg, #2c0d2d, #1e1408, #113e3a, #0b5b80);
     animation: moveWaves 10s  infinite alternate;
     background-size: 800% 800%;
 
@@ -22,7 +22,7 @@ body{
     
 }
 .containor{
-    background-color: rgb(240, 154, 228) ;
+    background-color: rgb(244, 191, 237) ;
     backdrop-filter: blur(10px);
     box-shadow:10px 10px 40px #40e0d0;
     padding: 5px;
@@ -53,8 +53,9 @@ textarea{
     display:block;
     font-size: 24px;
     padding: 20px;
-    color: rgb(90, 113, 134);
-    border:1px solid white;
+    background-color:  rgb(212, 249, 245);;
+    color: rgb(21, 38, 54);
+    border:1px solid rgb(192, 246, 241);
     border-radius: 10px;
     resize: none;
     animation: slideIn 3s ease;
